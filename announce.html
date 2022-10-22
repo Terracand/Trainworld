@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="kor">
+    <head>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@300&display=swap" rel="stylesheet">
+
+<style> 
+* { 
+font-family: 'IBM Plex Sans KR', sans-serif;
+}
+</style> 
+
+        <meta name="naver-site-verification" content="6881f83a963b7e3cea2f812944c87723d826dda3" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content=yee"" />
+        <title>철도 서버 공지사항</title>
+        
+
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Trainworld</a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container d-flex h-100 align-items-center">
+                <div class="mx-auto text-center">
+                    <h1 class="mx-auto my-0 text-uppercase">Traincityworld 서버 이동 안내</h1>
+                    <a href="Trainworld.aternos.me">www.trainworld.kro.kr</a>
+                </div>
+            </div>
+        </header>
+        <!-- About-->
+        <section class="about-section text-center" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 class="text-white mb-4">기존 aternos 서버에서 컴퓨터 서버로 이전을 실시합니다.</h2>
+                        <h2 class="text-white mb-4">서버 점검 예상 시간</h2>
+                        <h2 class="text-white mb-4">2022.10.23 ( 00:00 ~ 14:00)</h2>
+                    </div>
+                </div>
+                <img class="img-fluid" src="assets/img/.png" alt="" />
+            </div>
+        </section>
+
+    <div style="text-align: center;">
+        <span id="clock" style="color:gray; font-size: 100px;">clock</span>
+        <span id="apm" style="color:gray; font-size: 50px;"  >ampm</span>
+    </div>
+    
+
+    <script>
+        var Target = document.getElementById("clock");
+        var Target_apm = document.getElementById("apm");
+        function clock() {
+            var time = new Date();
+            var hours = time.getHours();
+            var minutes = time.getMinutes();
+            var seconds = time.getSeconds();
+            var AmPm ="AM";
+            if(hours > 12){   
+                var AmPm ="PM";
+                hours %= 12;
+            }
+
+            Target.innerText = 
+            `${hours < 10 ? `0${hours}` : hours}:${minutes < 10 ? `0${minutes}` : minutes}:${seconds < 10 ? `0${seconds}` : seconds}`;
+
+            Target_apm.innerText = `${AmPm}`;
+
+        }
+        clock();
+        setInterval(clock, 1000); // 1초마다 실행
+    </script>
+
+
+
+  <!-- Plan-->
+        <section class="projects-section bg-light" id="plan">
+            <div class="container">
+                <!-- Featured Project Row-->
+                <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+                    <div class="col-xl-4 col-lg-5">
+                        <div class="featured-text text-center text-lg-left">
+                            <h4><b> 안내사항 </b></h4>
+                            <p class="text-black-50 mb-0"></p>
+                        </div>
+                    </div>
+                </div>
+
+  <div class="row align-items-center no-gutters mb-5 mb-lg-10">
+                            <p class="text-black-100 mb-0">예상 소요시간은 진행속도에 따라 변경될 수 있습니다.</p>
+</div>
+  <div class="row align-items-center no-gutters mb-5 mb-lg-10">
+                      <p class="text-black-100 mb-0">앞으로 매우 쾌적한 서버를 즐기실 수 있습니다.</p>
+</div>
+  <div class="row align-items-center no-gutters mb-5 mb-lg-10">
+                      <p class="text-black-100 mb-0">
+<a href="이동할 주소"> 
+<img src="https://w.namu.la/s/f03c6fe86cbc474e2567385d32f2c8df191989458cc905990571b339c3b7363df5cf630779026534756bac01bbe1f8f71d8594393a7e17fe5957e0e26370acf20aefcb6e032a8a237c8c049bddd923a3cdb309c10d8fb90edbe18ab9022aeed5" width="30" alt="KT" />
+
+</a><A href="https://product.kt.com/wDic/productDetail.do?ItemCode=1505&CateCode=6005&filter_code=109&option_code=161&pageSize=10">기가 500MB 인터넷</A>
+  <P>을 사용중이므로 핑이 매우 낮고 속도가 빠릅니다.</p>
+                </div>
+
+
+   <!-- Signup-->
+        <section class="signup-section" id="signup">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-10 col-lg-8 mx-auto text-center">
+                    </div>
+                </div>
+            </div>
+        </section>
+   
+<!-- 라이브리 시티 설치 코드 -->
+<div id="lv-container" data-id="city" data-uid="MTAyMC81NjY0Ni8zMzExMA==">
+	<script type="text/javascript">
+   (function(d, s) {
+       var j, e = d.getElementsByTagName(s)[0];
+
+       if (typeof LivereTower === 'function') { return; }
+
+       j = d.createElement(s);
+       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+       j.async = true;
+
+       e.parentNode.insertBefore(j, e);
+   })(document, 'script');
+	</script>
+<noscript> 라이브리 댓글 작성을 위해 JavaScript를 활성화 해주세요</noscript>
+</div>
+<!-- 시티 설치 코드 끝 -->
+
+     <!-- Contact-->
+        <section class="contact-section bg-black">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-3 mb-md-0">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="social d-flex justify-content-center">
+                    <a class="mx-2" href="https://www.youtube.com/c/천안역/"><i class="fab fa-youtube"></i></a>
+                    <a class="mx-2" href="https://twitter.com/cheonanstation"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://discord.com/%EC%B2%9C%EC%95%88%EC%97%AD#1568"><i class="fab fa-discord"></i></a>
+                    <a class="mx-2" href="https://github.com/Terracand"><i class="fab fa-github"></i></a>      
+   </section>
+
+        <!-- Footer-->
+        <footer class="footer bg-black small text-center text-white-50"><div class="container">Copyright ©천안(Tucson)</div></footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    
+</body>
+</html>
